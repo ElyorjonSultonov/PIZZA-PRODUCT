@@ -1,0 +1,56 @@
+nav {
+  width: 100%;
+  background: #ffffff;
+  padding: 10px 0;
+  box-shadow: 2px 2px 2px #f0f0f0;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.151);
+}
+nav .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .row .cardLeft {
+  display: flex;
+  align-items: center;
+}
+nav .row .cardLeft .logo {
+  display: flex;
+  align-items: center;
+}
+nav .row .cardLeft .logo span {
+  margin-right: 10px;
+}
+nav .row .cardLeft .adress {
+  margin: 0 40px;
+}
+
+nav .row .cardLeft .delivery {
+  display: flex;
+  align-items: center;
+}
+nav .row .cardLeft .delivery span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #191919;
+}
+nav .row .cardRight {
+  display: flex;
+  align-items: center;
+}
+nav .row .cardRight .account {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+nav .row .cardRight .account span {
+  margin-right: 10px;
+}
+
+nav p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #191919;
+}

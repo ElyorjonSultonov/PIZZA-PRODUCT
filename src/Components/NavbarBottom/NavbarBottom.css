@@ -1,0 +1,25 @@
+.navBottom {
+  width: 100%;
+  background: #ffffff;
+  padding: 16px 0;
+  box-shadow: 2px 2px 2px #f0f0f0;
+}
+.navBottom .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navBottom .row .cardRight button {
+  display: flex;
+  align-items: center;
+  background: #ff7010;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+}
+.navBottom .row .cardRight button span {
+  margin-left: 8px;
+  color: #ffffff;
+  font-size: 18px;
+}

@@ -1,0 +1,26 @@
+.pizzaPage .pizzaTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pizzaPage .pizzaTitle h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #191919;
+}
+.pizzaPage .pizzaTitle button {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #191919;
+  padding: 12px 16px;
+}
+.pizzaPage .pizzaTitle button span {
+  margin-right: 8px;
+}
