@@ -1,29 +1,25 @@
 import React from "react";
-import "./Pizza.css";
-import { pizzaFilter } from "../../../assets/Svg";
-import Pizzaa1 from "../../../assets/imgs/pizza1.png";
-import Pizzaa2 from "../../../assets/imgs/pizza2.png";
-import Pizzaa3 from "../../../assets/imgs/pizza3.png";
-import Pizzaa4 from "../../../assets/imgs/pizza4.png";
+import "./Sauces.css";
+import Sauces1 from "../../../assets/imgs/Sauces1.png";
+import Sauces2 from "../../../assets/imgs/Sauces2.png";
+import Sauces3 from "../../../assets/imgs/Sauces3.png";
+import Sauces4 from "../../../assets/imgs/Sauces4.png";
 
-function Pizza() {
+function Sauces() {
   return (
-    <div className="pizzaPage">
+    <div className="sauces">
       <div className="container">
-        <div className="pizzaTitle">
-          <h1>Пицца</h1>
-          <button>
-            <span>{pizzaFilter}</span> Фильтры
-          </button>
+        <div className="saucesTitle">
+          <h1>Напитки</h1>
         </div>
         <div className="row">
           <div className="cards">
-            <img src={Pizzaa1} alt="" />
+            <img src={Sauces1} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -32,12 +28,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa2} alt="" />
+            <img src={Sauces2} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -46,12 +42,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa3} alt="" />
+            <img src={Sauces3} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -60,12 +56,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa4} alt="" />
+            <img src={Sauces4} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -74,12 +70,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa4} alt="" />
+            <img src={Sauces4} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -88,12 +84,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa3} alt="" />
+            <img src={Sauces3} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -102,12 +98,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa1} alt="" />
+            <img src={Sauces2} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -116,12 +112,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa2} alt="" />
+            <img src={Sauces1} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -135,4 +131,4 @@ function Pizza() {
   );
 }
 
-export default Pizza;
+export default Sauces;

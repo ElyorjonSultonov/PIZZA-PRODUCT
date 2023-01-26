@@ -1,39 +1,22 @@
-.pizzaPage {
+.drink {
   margin-bottom: 30px;
 }
-.pizzaPage .pizzaTitle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.drink .drinkTitle {
   margin-bottom: 32px;
 }
-.pizzaPage .pizzaTitle h1 {
+.drink .drinkTitle h1 {
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
   color: #191919;
 }
-.pizzaPage .pizzaTitle button {
-  display: flex;
-  align-items: center;
-  background: #ffffff;
-  border: 1px solid #f0f0f0;
-  border-radius: 6px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #191919;
-  padding: 12px 16px;
-}
-.pizzaPage .pizzaTitle button span {
-  margin-right: 8px;
-}
-.pizzaPage .row {
+
+.drink .row {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   grid-gap: 30px;
 }
-.pizzaPage .row .cards {
+.drink .row .cards {
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -41,33 +24,33 @@
   border-radius: 12px;
   cursor: pointer;
 }
-.pizzaPage .row .cards:hover {
+.drink .row .cards:hover {
   box-shadow: 3px 3px 7px rgba(128, 128, 128, 0.386),
     -3px -3px 7px rgba(128, 128, 128, 0.386);
 }
 
-.pizzaPage .row .cards .cardBody {
+.drink .row .cards .cardBody {
   padding: 20px;
 }
-.pizzaPage .row .cards .cardBody h1 {
+.drink .row .cards .cardBody h1 {
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
   color: #191919;
 }
-.pizzaPage .row .cards .cardBody p {
+.drink .row .cards .cardBody p {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #191919;
   margin: 12px 0 16px;
 }
-.pizzaPage .row .cards .cardBody .chooseBtn {
+.drink .row .cards .cardBody .chooseBtn {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.pizzaPage .row .cards .cardBody .chooseBtn button {
+.drink .row .cards .cardBody .chooseBtn button {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -78,7 +61,7 @@
   border: none;
   cursor: pointer;
 }
-.pizzaPage .row .cards .cardBody .chooseBtn h3 {
+.drink .row .cards .cardBody .chooseBtn h3 {
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;

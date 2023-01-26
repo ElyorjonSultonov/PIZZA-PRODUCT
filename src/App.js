@@ -1,5 +1,5 @@
 import "./App.css";
-// import Footer from "./Components/Fotter/Footer";
+import Footer from "./Components/Fotter/Footer";
 import NavbarBottom from "./Components/NavbarBottom/NavbarBottom";
 import NavbarTop from "./Components/NavbarTop/NavbarTop";
 import Home from "./Pages/Home/Home";
@@ -10,7 +10,7 @@ function App() {
       <NavbarTop />
       <NavbarBottom />
       <Home />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

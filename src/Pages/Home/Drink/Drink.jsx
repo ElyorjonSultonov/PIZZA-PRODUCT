@@ -1,29 +1,27 @@
 import React from "react";
-import "./Pizza.css";
-import { pizzaFilter } from "../../../assets/Svg";
-import Pizzaa1 from "../../../assets/imgs/pizza1.png";
-import Pizzaa2 from "../../../assets/imgs/pizza2.png";
-import Pizzaa3 from "../../../assets/imgs/pizza3.png";
-import Pizzaa4 from "../../../assets/imgs/pizza4.png";
+import "./Drink.css";
+import Drink1 from "../../../assets/imgs/Drink1.png";
+import Drink2 from "../../../assets/imgs/Drink2.png";
+import Drink3 from "../../../assets/imgs/Drink3.png";
+import Drink4 from "../../../assets/imgs/Drink4.png";
+import Drink5 from "../../../assets/imgs/Drink5.png";
+import Drink6 from "../../../assets/imgs/Drink6.png";
 
-function Pizza() {
+function Drink() {
   return (
-    <div className="pizzaPage">
+    <div className="drink">
       <div className="container">
-        <div className="pizzaTitle">
-          <h1>Пицца</h1>
-          <button>
-            <span>{pizzaFilter}</span> Фильтры
-          </button>
+        <div className="drinkTitle">
+          <h1>Напитки</h1>
         </div>
         <div className="row">
           <div className="cards">
-            <img src={Pizzaa1} alt="" />
+            <img src={Drink1} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -32,12 +30,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa2} alt="" />
+            <img src={Drink2} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -46,12 +44,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa3} alt="" />
+            <img src={Drink3} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -60,12 +58,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa4} alt="" />
+            <img src={Drink4} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -74,12 +72,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa4} alt="" />
+            <img src={Drink5} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -88,12 +86,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa3} alt="" />
+            <img src={Drink6} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -102,12 +100,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa1} alt="" />
+            <img src={Drink1} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -116,12 +114,12 @@ function Pizza() {
             </div>
           </div>
           <div className="cards">
-            <img src={Pizzaa2} alt="" />
+            <img src={Drink2} alt="" />
             <div className="cardBody">
-              <h2>Чикен Сладкий Чили</h2>
+              <h2>Филадельфия кранч</h2>
               <p>
-                Курица, Лук, Перец Халапеньо, <br /> Сыр Моцарелла, Томатный
-                соу...
+                Тигровая креветка, огурец, <br /> авокадо, соус Айоли, рис,
+                ик...
               </p>
               <div className="chooseBtn">
                 <button>Выбрать</button>
@@ -135,4 +133,4 @@ function Pizza() {
   );
 }
 
-export default Pizza;
+export default Drink;

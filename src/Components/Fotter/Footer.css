@@ -1,0 +1,37 @@
+footer {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  margin-top: 60px;
+  padding: 32px 0;
+}
+footer .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .row .logo p{
+margin-top: 115px;
+   
+}
+
+footer .row ul .bold {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #191919;
+  margin-top: 0;
+}
+footer .row ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #191919;
+  margin: 10px 0;
+}
+footer .row .dfex .footerIcon {
+  display: flex;
+  align-items: center;
+}
+footer .row .dfex .footerIcon span {
+  margin-right: 15px;
+}

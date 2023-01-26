@@ -1,0 +1,42 @@
+.delivery {
+  /* margin: 40px 0 60px; */
+}
+.delivery .contain {
+  max-width: 850px;
+  margin: auto;
+}
+.delivery .contain .row {
+  display: flex;
+  flex-direction: column;
+}
+.delivery .contain h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #191919;
+}
+.delivery .contain .row p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  background: linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #f9f9f9 100%),
+    #191919;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-align: justify;
+  margin: 16px 0;
+}
+.delivery .contain .row span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #191919;
+}
+.delivery .contain h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ff7010;
+}
